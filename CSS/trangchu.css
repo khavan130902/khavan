@@ -1,0 +1,205 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    width: 1200px;
+    margin: 10px auto;
+    line-height: 1.2;
+    font-family: 'segoe UI',Verdana, Geneva, Tahoma, sans-serif;
+    color:#333;
+}
+a{
+    text-decoration: none;
+    color: #78B8C6;
+}
+a:hover{
+    color: #EF81AF;
+}
+.wrapper{
+    width: 1200px;
+    margin: auto;
+}
+.header ul li{
+    display: inline-block;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.header{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.header img{
+    margin: 0px 15px -20px;
+}
+section div.menu{
+    position: relative;
+}
+h1{
+    position: absolute;
+    top:140px;
+    left: 20px;
+    font-size: 15px;
+    font-family: Arial;
+    padding-left: 50px;
+    padding-right: 650px;
+}
+h2{
+    position: absolute;
+    top:110px;
+    left: 20px;
+    font-size: 20px;
+    font-family: Arial;
+    padding-left: 50px;
+    padding-right: 650px;
+    color:brown;
+}
+/*hiệu ứng ảnh*/
+#hieu_ung{
+    display:flex;
+    justify-content: center;  
+    
+}
+ul.room{
+    display:flex;
+}
+ul.room li{
+    max-width: 550px;
+    overflow: hidden;
+}
+ul.room li a img{
+    display: block;
+    max-width: 100%;
+    transition: all 0.3s ease-in-out;
+    margin: 15px;
+    width: 370px;
+    height:250px;
+    border-radius: 12px;
+    border: 1px solid #78B8C6;
+    box-shadow: 5px 10px 10px #EF81AF;
+}
+ul.room li a{
+    position: relative;
+    display: block;
+}
+ul.room li:hover img{
+    transform: scale(1.1); 
+    opacity:0.8 ;
+
+}
+ul.room li a  .name{
+    position: absolute;
+    color:#333;
+    font-weight: bold;
+    font-size: 14px;
+    bottom: 0px;
+    left: 30%;
+    transform: translateX(-25%);
+    transition: all 0.3s ease-in-out;
+    opacity: 0;
+}
+ul.room li a:hover .name{
+    bottom: 45%;
+    opacity: 1;
+}
+hr{
+    border-width: 2px;
+    border-color: #78B8C6;
+    background-color: #EF81AF;
+    size: 1200px;
+    
+}
+
+#d1 {
+    width: 350px;
+    height: 300px;
+    padding-left: 100px;
+    border-radius: 12px;
+}
+#phandichvu {
+    padding-left: 50px;
+    font-size: 20px;
+    font-family: Arial;
+    padding-right: 100px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+input#datlich{
+    font-size: 18px;
+    width: 160px;
+    height: 50px;
+    background-color: #78B8C6 ;
+    color: white;
+    margin-left: 200px;
+    margin-bottom: 70px;
+    margin-top: -10px;
+    border-radius: 12px;
+}
+#datlich:hover{
+    color: #EF81AF;
+    background-color: floralwhite;
+}
+section div.combo { 
+    margin: 15px;
+    width: 200px;
+    height: 300px;
+    border-radius: 12px;
+    border: 2px solid #EF81AF;
+    box-shadow: 5px 10px 12px #78B8C6;
+    text-align: center;
+    float: right;
+}
+.dinhdang {
+    padding-left: 5px;
+    padding-top: 10px;
+    font-size: 15.5px;
+    width: 190px;
+    height: auto;
+    text-align: justify;
+    text-indent: 30px;
+    margin-left: 0px;
+}
+#banggia {
+    padding-left: 65px;
+}
+.combo{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all 0.5s ease;
+}
+.combo:hover{
+    transform: scale(1.1);
+}
+input#lenlich{
+    font-size: 18px;
+    width: 140px;
+    height: 40px;
+    background-color: #78B8C6 ;
+    color: white;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+#lenlich:hover{
+    color: #EF81AF;
+    background-color: floralwhite;
+}
+footer{
+    color: #333;
+    height: 200px;
+    background-color: #78B8C6;
+    margin-top: 20px;
+}
+tr.phanfooter td {
+    padding: 0px 20px 0px 0px;
+}
+tr.phanfooter td a {
+    color: white;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 14px;
+}
+tr.phanfooter td a:hover {
+    color:#EF81AF;
+}
+
